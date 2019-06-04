@@ -27,7 +27,7 @@ namespace ShopCar
         }
         private void BtnGenerate_Click(object sender, RoutedEventArgs e)
         {
-            string dbName = "";
+            string dbName = "bublegum";
             SQLiteConnection con = new SQLiteConnection($"Data Source={dbName}");
             con.Open();
             GenerateTabel(con);
