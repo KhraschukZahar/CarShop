@@ -66,7 +66,9 @@ namespace ShopCar
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TestBtn");
+            if(txtInfo.Text !="")
+            MessageBox.Show("Your info added to table!");
+            MessageBox.Show("Can`t add info to table!");
         }
     }
 }
